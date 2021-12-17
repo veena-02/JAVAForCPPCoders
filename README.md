@@ -2,11 +2,16 @@
 
 ## ARCHITECTURE
 ![image](https://user-images.githubusercontent.com/59028294/146491615-7fabe2c5-059a-4b4b-aaf7-fa2a60d327c1.png)
+
+
 AT CompileTime : javac compiler converts abc.java to abc.class
 AT RunTime :  IL code is JIT(Just in time) compiled(meaning code runs as well as compiles to machine code at the same time). JVM compiles abc.class to machine code depending on the machine and os its running on.  
---- Compile once run anywhere, hence Java is cross-platform so covers a larger market( since source code can't be shared in all scenarios, .class file can be shared)
---- Since JVM runs on windows machine on which runs the abc.class, its relatively slower than cpp.
+- Compile once run anywhere, hence Java is cross-platform so covers a larger market( since source code can't be shared in all scenarios, .class file can be shared)
+- Since JVM runs on windows machine on which runs the abc.class, its relatively slower than cpp.
+
 ![image](https://user-images.githubusercontent.com/59028294/146493592-757be802-83dc-4e6b-bdd8-fcaf5673f6d0.png)
+
+
 JDK(for developing java code) - Tools using which help in writing java code. 
 JVM(for running program) - Program which makes abc.class run on OS.
 
@@ -32,14 +37,14 @@ public class Main{
 ```
 
 ## DATATYPE
---- byte (1 byte)  Range:(2^7 to 2^7 - 1)
---- short (2 byte)  Range:(2^15 to 2^15 - 1)
---- int (4 byte)  Range:(2^31 to 2^31 - 1)
---- long (8 byte) Range:(2^63 to 2^63 - 1)
---- char (2 byte)
---- float (4 byte)
---- double (8 byte)DEFAULT
---- boolean (true/false)
+- byte (1 byte)  Range:(2^7 to 2^7 - 1)
+- short (2 byte)  Range:(2^15 to 2^15 - 1)
+- int (4 byte)  Range:(2^31 to 2^31 - 1)
+- long (8 byte) Range:(2^63 to 2^63 - 1)
+- char (2 byte)
+- float (4 byte)
+- double (8 byte)DEFAULT
+- boolean (true/false)
 
 **JAVA DOESN'T HAS A CONCEPT OF POINTERS/REFERENCES**
 
